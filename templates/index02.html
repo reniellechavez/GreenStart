@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+<body>
+<!--    <title><img> src="images/cover.png" </img></title>-->
+<br>
+<img src="images/cover.jpg"  height="550" width="100%" />
+<br>
+
+
+
+ <style>
+ html, body, .container
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+.first {
+    float: left;
+    width: 22%;
+    height: 70%;
+    #background-color: red;
+}
+
+.second{
+    float: left;
+    width: 20%;
+    height: 20%;
+    background-color: green;
+}
+
+
+.third{
+    float: right;
+    width: 78%;
+    height: 80%;
+    background-color: blue;
+}
+
+.fourth {
+    float: right;
+    width: 40%;
+    height: 20%;
+    background-color: #DDDDDD;
+}
+
+.last{
+    float: right;
+    width: 40%;
+    height: 20%;
+    background-color: yellow;
+}
+
+.slider {
+  opacity: 0.7;
+
+}
+
+
+
+</style>
+
+<div class="container">
+
+<div class="first">
+    <form action="#" method="POST"  >
+        <table border="0"  >
+            <tr>
+                <td align="right" >Education</td>
+                <td><input type="range" min="0" max="5" value="0" class="slider" name="sl_education" "></td>
+            </tr>
+            <tr>
+                <td align="right" >Number of Schools</td>
+                <td><input type="range" min="0" max="5" value="0" class="slider" name="sl_educationcount" ></td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    House Prices
+                </td>
+                <td >
+                    <input type="range" min="0" max="5" value="0" class="slider" name="sl_price">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Different Buss Routes</td>
+                <td><input type="range" min="0" max="5" value="0" class="slider" name="sl_buss"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Bicing Stations</td>
+                <td><input type="range" min="0" max="5" value="0" class="slider" name="sl_bicing"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Different Metro Routes</td>
+                <td><input type="range" min="0" max="5" value="0" class="slider" name="sl_metro"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Transportation Diversity</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_trasp"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Tree Density</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_tree"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Hospital Density </td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_hosp"></td>
+            </tr>
+
+
+            <tr>
+                <td align="right">Climate and Environment</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_env"></td>
+            </tr>
+            <tr>
+                <td align="right">Public Order</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_pub_ord"></td>
+            </tr>
+            <tr>
+                <td align="right">Neighbourhood Coexistence</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_nei_coe"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Crime-Related Safety</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_safety"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Road System</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_road_sys"></td>
+            </tr>
+            <tr>
+                <td align="right">Hire Reputation</td>
+                <td> <input type="range" min="0" max="5" value="0" class="slider" name="sl_hire_rep"></td>
+            </tr>
+        </table>
+    </form>
+    <input type="submit" value="View Map">
+</div>
+    <div class="third">third</div>
+<!--<div class="second">second</div><div class="fourth">fourth</div><div class="last">last</div>-->
+!pip install geocoder
+
+
+</body>
+</html>
